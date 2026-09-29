@@ -1,0 +1,7 @@
+{
+  "item.omegafe.rechargeable_small_battery": "Batteria piccola ricaricabile",
+  "item.omegafe.rechargeable_medium_battery": "Batteria media ricaricabile",
+  "item.omegafe.rechargeable_large_battery": "Batteria grande ricaricabile",
+  "tooltip.omegafe.rechargeable": "Ricaricabile in qualsiasi caricatore FE",
+  "tooltip.omegafe.charge": "%s / %s FE"
+}

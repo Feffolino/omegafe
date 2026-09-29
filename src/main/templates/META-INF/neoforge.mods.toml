@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+logoFile="logo.png"
+logoBlur=false
+authors="Rat Lab"
+description='''
+Adds three Rechargeable Batteries (Small, Medium, Large) for Omega Flashlight.
+They work in the flashlight like the original batteries and recharge with Forge Energy (FE) in any charger:
+Mekanism Energy Cube, Chargepad, and any other block that charges FE items.
+Omega's original batteries stay single-use.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="omegaflashlight"
+    type="required"
+    versionRange="${omega_version_range}"
+    ordering="AFTER"
+    side="BOTH"
