@@ -1,0 +1,24 @@
+{
+  "type": "omegafe:empty_battery",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    "RBR",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:diamond"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "B": {
+      "item": "omegaflashlight:large_battery"
+    }
+  },
+  "result": {
+    "item": "omegafe:rechargeable_large_battery",
+    "count": 1
+  }
+}

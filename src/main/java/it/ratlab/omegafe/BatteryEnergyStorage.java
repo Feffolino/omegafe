@@ -3,7 +3,7 @@ package it.ratlab.omegafe;
 
 import com.omega.flashlight.item.BatteryItem;
 import net.minecraft.world.item.ItemStack;
-import net.neoforged.neoforge.energy.IEnergyStorage;
+import net.minecraftforge.energy.IEnergyStorage;
 
 /**
  * Receive-only FE view over an Omega Flashlight battery's internal charge.

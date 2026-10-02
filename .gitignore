@@ -42,6 +42,7 @@ repo/
 ### omegafe ###
 # Omega Flashlight jar: third-party, not redistributed. Put your own copy in libs/ to build.
 libs/
-# Original Omega Flashlight textures and upscaled copies, kept locally for reference only.
 art/ref/
 art/texture_da_disegnare/
+prompt.md
+PROMPT.md

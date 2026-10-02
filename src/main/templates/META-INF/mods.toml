@@ -17,22 +17,22 @@ Omega's original batteries stay single-use.
 '''
 
 [[dependencies.${mod_id}]]
-    modId="neoforge"
-    type="required"
-    versionRange="[21.1,)"
+    modId="forge"
+    mandatory=true
+    versionRange="${loader_version_range}"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.${mod_id}]]
     modId="minecraft"
-    type="required"
+    mandatory=true
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.${mod_id}]]
     modId="omegaflashlight"
-    type="required"
+    mandatory=true
     versionRange="${omega_version_range}"
     ordering="AFTER"
     side="BOTH"
