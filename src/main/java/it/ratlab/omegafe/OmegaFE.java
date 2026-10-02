@@ -8,6 +8,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
@@ -35,7 +36,7 @@ public final class OmegaFE {
         MinecraftForge.EVENT_BUS.addListener(OmegaFEChargeHandler::onPlayerTick);
 
         if (FMLEnvironment.dist.isClient()) {
-            MinecraftForge.EVENT_BUS.addListener(ClientTooltips::onTooltip);
+            MinecraftForge.EVENT_BUS.addListener(EventPriority.LOWEST, ClientTooltips::onTooltip);
         }
     }
 
