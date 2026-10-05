@@ -1,5 +1,5 @@
 ### Gradle ###
-.gradle
+.gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/**/build/
@@ -32,12 +32,18 @@ bin/
 ### Mac OS ###
 .DS_Store
 
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
 ### Minecraft Modding ###
 run/
 !**/src/**/run/
 **/src/generated/**/.cache/
 repo/
 !**/src/**/repo/
+run-kubejs/
 
 ### omegafe ###
 # Omega Flashlight jar: third-party, not redistributed. Put your own copy in libs/ to build.
@@ -45,6 +51,8 @@ libs/
 # Original Omega Flashlight textures and upscaled copies, kept locally for reference only.
 art/ref/
 art/texture_da_disegnare/
+__pycache__/
+*.pyc
 
 # AI prompt files
 PROMPT.md
@@ -52,3 +60,7 @@ prompt.md
 
 # Large raw graphics source files
 *.psd
+
+# Private publishing checklist (kept local)
+PUBLISH_CURSEFORGE.md
+**/curseforge/icon/

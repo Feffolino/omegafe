@@ -1,24 +1,4 @@
-# Omega Flashlight FE Batteries — CurseForge page
-
-| Field | Value |
-|---|---|
-| Project name | Omega Flashlight FE Batteries |
-| Summary (max 50 chars) | Rechargeable FE batteries for Omega Flashlight |
-| Project avatar | `art/icon.png` (400x400) |
-| Description header | `art/banner.png` (1600x900), upload to the project's Images gallery and link it at the top of the description |
-| Categories | Addons, Technology / Energy, Utility & QoL |
-| Game version / Loader | 1.21.1 / NeoForge |
-| License | MIT (battery textures LGPL-3.0, see Description) |
-| Relations | Omega Flashlight: Required Dependency |
-| File | `build/libs/omegafe-1.0.0.jar`, release type Release, changelog "Initial release." |
-
-Alternative summaries (all under 50 chars):
-- Omega Flashlight batteries you can charge with FE
-- Add FE-rechargeable batteries to Omega Flashlight
-
----
-
-## Description (paste into the CurseForge editor)
+# Omega Flashlight FE Batteries
 
 ![Omega Flashlight FE Batteries](BANNER_URL)
 
