@@ -46,3 +46,6 @@ art/ref/
 art/texture_da_disegnare/
 prompt.md
 PROMPT.md
+
+# Large raw graphics source files
+*.psd
